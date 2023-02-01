@@ -1,12 +1,12 @@
 # pretend to Animate with Yanimate! 
 
-Nothing is pretty much done yet, but i desire to finish building this one day...
-
+Nothing is pretty much done yet, but i desire to finish building this one day... </br>
+**[DONE]:** Still need to refactor. i dont like multiple for loops at once.
 ## Usage
 
-## Animate(arrayOfFrames, secondsLong, OptionalCallback)
-
-arrayOfFrames is, as we uderstand, the array of frames. (of type string)
+## animate(frames, fps, duration)
+*
+frames is, as we uderstand, the array of frames. (string[])
 
 for example:
 arrayOfFrames[0]= 
@@ -49,6 +49,7 @@ arrayOfFrames[0]=
 
 And the other frames should be like the first one, but a little modified, so it can kinda move and look like an animation.
 
-`secondsLong` is a number, which means how long your array of frames is going to be animated. like 10. or 32. idfc, pass anything.
+`fps` means frames per second. the thing i forked didn't have it, so i added))
+`duration` is how long you want you animation to be played (in seconds). it's optional, default value is 1.
 
 hope it's clear enough. will add an example file later, bye =))
