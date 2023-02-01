@@ -1,5 +1,13 @@
-import { validate } from "./validator";
-import { sleep } from "./sleep";
+// sleep zZ 
+
+const sleep = (milliseconds) => {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+};
+// (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ♡ sweeet dreams
 
 const animate = (frames, fps, duration) => {
   const clear = "\033[2J";
@@ -15,3 +23,4 @@ const animate = (frames, fps, duration) => {
     }
   }
 };
+

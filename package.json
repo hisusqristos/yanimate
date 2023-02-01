@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start":"node src/index.js",
+    "dev":"node src/index.js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hisusqristos/coffing.git"
+    "url": "git+https://github.com/hisusqristos/yanimate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hisusqristos/coffing/issues"
+    "url": "https://github.com/hisusqristos/yanimate/issues"
   },
-  "homepage": "https://github.com/hisusqristos/coffing#readme",
+  "homepage": "https://github.com/hisusqristos/yanimate#readme",
   "dependencies": {
     "jest": "^29.4.1"
   }
