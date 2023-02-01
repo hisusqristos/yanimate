@@ -1,7 +1,7 @@
 # pretend to Animate with Yanimate! 
 
 Nothing is pretty much done yet, but i desire to finish building this one day... </br>
-**[DONE]:** Still need to refactor. i dont like multiple for loops at once.
+**[DONE]:** Still need to refactor. i dont like multiple for loops at once. May Lord forgive me for that miserable commit history.
 ## Usage
 
 ## animate(frames, fps, duration)
