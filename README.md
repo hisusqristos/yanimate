@@ -49,7 +49,7 @@ arrayOfFrames[0]=
 
 And the other frames should be like the first one, but a little modified, so it can kinda move and look like an animation.
 
-`fps` means frames per second. the thing i forked didn't have it, so i added))
+`fps` means frames per second. the thing i forked didn't have it, so i added))</br >
 `duration` is how long you want you animation to be played (in seconds). it's optional, default value is 1.
 
 hope it's clear enough. will add an example file later, bye =))
