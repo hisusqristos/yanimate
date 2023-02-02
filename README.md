@@ -5,7 +5,6 @@ Nothing is pretty much done yet, but i desire to finish building this one day...
 ## Usage
 
 ## animate(frames, fps, duration)
-*
 frames is, as we uderstand, the array of frames. (string[])
 
 for example:
