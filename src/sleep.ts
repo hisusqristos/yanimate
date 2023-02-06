@@ -3,7 +3,7 @@
 const sleep = (milliseconds: number) => {
   const wakeUpTime = Date.now() + milliseconds;
   do {
-    // ꒰ ᵕ༚ᵕ꒱
+    //ᵕ༚ᵕ
   } while (Date.now() < wakeUpTime);
 };
 
