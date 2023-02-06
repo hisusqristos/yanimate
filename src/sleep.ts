@@ -1,11 +1,10 @@
 // (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ♡ sweeet dreams
 
 const sleep = (milliseconds: number) => {
-  const date = Date.now();
-  let currentDate = null;
+  const wakeUpTime = Date.now() + milliseconds;
   do {
-    currentDate = Date.now();
-  } while (currentDate - date < milliseconds);
+    // ( ु⁎ᴗ_ᴗ⁎)ु.｡zZ
+  } while (Date.now() < wakeUpTime);
 };
 
 export { sleep };
